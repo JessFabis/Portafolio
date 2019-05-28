@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    font-family: Montserrat
+    font-family: Montserratt;
 }
 
 hr.star-dark,
@@ -49,15 +49,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c
+    background-color: #DE6197
 }
 
 hr.star-dark {
-    border-color: #2c3e50
+    border-color: palevioletred
 }
 
 hr.star-dark:after {
-    color: #2c3e50;
+    color: palevioletred;
     background-color: #fff
 }
 
@@ -107,7 +107,8 @@ section h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 700;
-    font-family: Montserrat
+    font-family: Montserrat;
+    font-size: 23px;
 }
 
 #mainNav .navbar-brand {
@@ -120,11 +121,11 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #fff
+    color: black;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18bc9c
+    color: #DE6197;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -133,7 +134,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18bc9c
+    color: #DE6197;
 }
 
 #mainNav .navbar-toggler {
@@ -158,13 +159,13 @@ section h2 {
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #fff;
-        background: #18bc9c
+        background: #DE6197
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #fff;
-        background: #18bc9c
+        background: #DE6197
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -196,7 +197,7 @@ header.masthead h2 {
         padding-bottom: 6rem
     }
     header.masthead h1 {
-        font-size: 4.75em;
+        font-size: 44px;
         line-height: 4rem
     }
     header.masthead h2 {
@@ -219,7 +220,7 @@ header.masthead h2 {
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background-color: rgba(24, 188, 156, .9)
+    background-color: rgba(222, 97, 151, 0.603);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -320,7 +321,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c
+    color: #DE6197
 }
 
 form .row:first-child .floating-label-form-group {
@@ -330,22 +331,22 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: black;
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f
+    background-color: palevioletred;
 }
 
 a {
-    color: #18bc9c
+    color: #DE6197
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #128f76
+    color: #DE6197
 }
 
 .btn {
@@ -353,36 +354,36 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: palevioletred!important
+    background-color: black!important
 }
 
 .bg-secondary {
-    background-color: #421E2A!important
+    background-color: white!important
 }
 
 .text-primary {
-    color: #18bc9c!important
+    color: #DE6197!important
 }
 
 .text-secondary {
-    color: #2c3e50!important
+    color: palevioletred!important
 }
 
 .btn-primary {
-    background-color: #18bc9c;
-    border-color: #18bc9c
+    background-color: #DE6197;
+    border-color: #DE6197
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #128f76;
-    border-color: #128f76
+    background-color: rgb(185, 51, 109);
+    border-color: rgb(185, 51, 109)6
 }
 
 .btn-secondary {
-    background-color: #2c3e50;
-    border-color: #2c3e50
+    background-color: palevioletred;
+    border-color: palevioletred
 }
 
 .btn-secondary:active,
