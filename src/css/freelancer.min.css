@@ -1,15 +1,12 @@
-/*!
- * Start Bootstrap - Freelancer v5.0.4 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
- */
-
 body {
     font-family: Lato
 }
 
 h1,
-h2,
+h2 {
+    color: #000;
+}
+
 h3,
 h4,
 h5,
@@ -143,6 +140,12 @@ section h2 {
 }
 
 @media (min-width:992px) {
+    .btnModal {
+        color: #DE6197;
+    }
+    .mb-5 {
+        font-size: 15px;
+    }
     #mainNav {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
@@ -192,6 +195,12 @@ header.masthead h2 {
 }
 
 @media (min-width:992px) {
+    .btnModal {
+        color: #DE6197;
+    }
+    .mb-5 {
+        font-size: 15px;
+    }
     header.masthead {
         padding-top: calc(6rem + 106px);
         padding-bottom: 6rem
@@ -232,6 +241,12 @@ header.masthead h2 {
 }
 
 @media (min-width:576px) {
+    .btnModal {
+        color: #DE6197;
+    }
+    .mb-5 {
+        font-size: 15px;
+    }
     .portfolio {
         margin-bottom: -30px
     }
@@ -265,6 +280,12 @@ header.masthead h2 {
 }
 
 @media (min-width:768px) {
+    .btnModal {
+        color: #DE6197;
+    }
+    .mb-5 {
+        font-size: 15px;
+    }
     .portfolio-modal .portfolio-modal-dialog {
         min-height: 100vh;
         padding: 5rem;
@@ -331,7 +352,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: black;
+    background-color: #D4BEB4;
     color: #fff
 }
 
@@ -354,7 +375,17 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: black!important
+    height: auto;
+    background-image: url("../img/pexels-photo-1018137.jpeg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-primary2 {
+    height: auto;
+    background-image: url("../img/pexels-photo-1002785.jpeg")!important;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-secondary {
