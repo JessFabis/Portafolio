@@ -2,6 +2,10 @@ body {
     font-family: Lato
 }
 
+.lead {
+    font-weight: bold;
+}
+
 h1,
 h2 {
     color: #000;
