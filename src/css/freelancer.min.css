@@ -140,9 +140,6 @@ section h2 {
 }
 
 @media (min-width:992px) {
-    .btnModal {
-        color: #DE6197;
-    }
     .mb-5 {
         font-size: 15px;
     }
@@ -195,9 +192,6 @@ header.masthead h2 {
 }
 
 @media (min-width:992px) {
-    .btnModal {
-        color: #DE6197;
-    }
     .mb-5 {
         font-size: 15px;
     }
@@ -241,9 +235,6 @@ header.masthead h2 {
 }
 
 @media (min-width:576px) {
-    .btnModal {
-        color: #DE6197;
-    }
     .mb-5 {
         font-size: 15px;
     }
@@ -280,9 +271,6 @@ header.masthead h2 {
 }
 
 @media (min-width:768px) {
-    .btnModal {
-        color: #DE6197;
-    }
     .mb-5 {
         font-size: 15px;
     }
