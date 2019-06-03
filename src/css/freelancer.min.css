@@ -141,7 +141,7 @@ section h2 {
 
 @media (min-width:992px) {
     .mb-5 {
-        font-size: 15px;
+        font-size: 10px;
     }
     #mainNav {
         padding-top: 1.5rem;
@@ -193,7 +193,7 @@ header.masthead h2 {
 
 @media (min-width:992px) {
     .mb-5 {
-        font-size: 15px;
+        font-size: 10px;
     }
     header.masthead {
         padding-top: calc(6rem + 106px);
@@ -236,7 +236,7 @@ header.masthead h2 {
 
 @media (min-width:576px) {
     .mb-5 {
-        font-size: 15px;
+        font-size: 10px;
     }
     .portfolio {
         margin-bottom: -30px
@@ -272,7 +272,7 @@ header.masthead h2 {
 
 @media (min-width:768px) {
     .mb-5 {
-        font-size: 15px;
+        font-size: 30px;
     }
     .portfolio-modal .portfolio-modal-dialog {
         min-height: 100vh;
