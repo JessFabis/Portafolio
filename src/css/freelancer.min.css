@@ -392,3 +392,119 @@ a:hover {
     background-color: #1a252f;
     border-color: #1a252f
 }
+
+
+/*holi*/
+
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Audiowide'), local('Audiowide-Regular'), url(http://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+/*neon effect*/
+
+p {
+    text-align: center;
+    font-size: 4em;
+    margin: 20px 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+p:nth-child(1) a {
+    color: #DE6197;
+    font-family: Audiowide;
+}
+
+p:nth-child(1) a:hover {
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+p a:hover {
+    color: #ffffff;
+}
+
+
+/*glow for webkit-ket-frames*/
+
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px black, 0 0 35px black, 0 0 40px black, 0 0 50px black, 0 0 75px black;
+    }
+}
+
+
+/*glow for mozilla-keyframes*/
+
+@-moz-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px black, 0 0 35px black, 0 0 40px black, 0 0 50px black, 0 0 75px black;
+    }
+}
+
+
+/*glow*/
+
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px black, 0 0 70px black, 0 0 80px black, 0 0 100px black, 0 0 150px black;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px black, 0 0 35px black, 0 0 40px black, 0 0 50px black, 0 0 75px black;
+    }
+}
+
+
+/*holi2*/
+
+.contenedor {
+    margin: auto;
+    display: table;
+}
+
+h1 {
+    position: relative;
+    float: left;
+    background: black;
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+}
+
+h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: black;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from {
+        width: 100%
+    }
+    to {
+        width: 0
+    }
+}
