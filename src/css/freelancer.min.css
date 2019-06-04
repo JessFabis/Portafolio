@@ -72,6 +72,18 @@ section h2 {
 }
 
 @media (min-width:992px) {
+    .transition {
+        width: 200px;
+        height: 90px;
+        background: #f92672;
+        transition: width 5s, height 5s, margin 5s;
+        margin: 50px auto 0;
+    }
+    .transition:hover {
+        width: 30%;
+        height: 60px;
+        margin: 0 auto;
+    }
     section h2 {
         font-size: 3rem;
         line-height: 2.5rem
@@ -144,6 +156,18 @@ section h2 {
 }
 
 @media (min-width:992px) {
+    .transition {
+        width: 200px;
+        height: 90px;
+        background: #f92672;
+        transition: width 5s, height 5s, margin 5s;
+        margin: 50px auto 0;
+    }
+    .transition:hover {
+        width: 30%;
+        height: 60px;
+        margin: 0 auto;
+    }
     .mb-5 {
         font-size: 10px;
     }
@@ -196,6 +220,18 @@ header.masthead h2 {
 }
 
 @media (min-width:992px) {
+    .transition {
+        width: 200px;
+        height: 90px;
+        background: #f92672;
+        transition: width 5s, height 5s, margin 5s;
+        margin: 50px auto 0;
+    }
+    .transition:hover {
+        width: 30%;
+        height: 60px;
+        margin: 0 auto;
+    }
     .mb-5 {
         font-size: 10px;
     }
@@ -239,6 +275,18 @@ header.masthead h2 {
 }
 
 @media (min-width:576px) {
+    .transition {
+        width: 200px;
+        height: 90px;
+        background: #f92672;
+        transition: width 5s, height 5s, margin 5s;
+        margin: 50px auto 0;
+    }
+    .transition:hover {
+        width: 30%;
+        height: 60px;
+        margin: 0 auto;
+    }
     .mb-5 {
         font-size: 10px;
     }
@@ -275,6 +323,18 @@ header.masthead h2 {
 }
 
 @media (min-width:768px) {
+    .transition {
+        width: 200px;
+        height: 90px;
+        background: #f92672;
+        transition: width 5s, height 5s, margin 5s;
+        margin: 50px auto 0;
+    }
+    .transition:hover {
+        width: 30%;
+        height: 60px;
+        margin: 0 auto;
+    }
     .mb-5 {
         font-size: 30px;
     }
@@ -375,7 +435,7 @@ a:hover {
 
 .bg-primary2 {
     height: auto;
-    background-image: url("../img/pexels-photo-1002785.jpeg")!important;
+    background-image: url("../img/about.jpeg")!important;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -427,7 +487,7 @@ a:hover {
 }
 
 body {
-    background-color: #ffffff;
+    background-image: url("../img/pared.jpg");
 }
 
 
@@ -530,4 +590,18 @@ h1 span {
     to {
         width: 0
     }
+}
+
+.transition {
+    width: 200px;
+    height: 90px;
+    background: #f92672;
+    transition: width 5s, height 5s, margin 5s;
+    margin: 50px auto 0;
+}
+
+.transition:hover {
+    width: 30%;
+    height: 60px;
+    margin: 0 auto;
 }
