@@ -2,6 +2,10 @@ body {
     font-family: Lato
 }
 
+#contact {
+    font-size: 150%;
+}
+
 .lead {
     font-weight: bold;
 }
